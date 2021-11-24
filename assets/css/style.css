@@ -2146,13 +2146,13 @@ label {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .swiper-container {
-    height: 52vh;
+    height: 70vh;
   }
 }
 
 @media (max-width: 767px) {
   .swiper-container {
-    height: 52vh;
+    height: 70vh;
   }
 }
 
