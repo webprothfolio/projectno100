@@ -41,6 +41,10 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+body {
+  line-height: 0;
+}
+
 ol, ul {
   list-style: none;
 }
