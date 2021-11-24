@@ -1,0 +1,56 @@
+// Font Family
+$Catamaran: 'Catamaran', sans-serif;
+$Open_sans: 'Open Sans Condensed', sans-serif;
+$Prata: 'Prata', serif;
+$Quicksand: 'Quicksand', sans-serif;
+
+// Colors ---------------
+$footer-bg: #222;
+$theme-color: #f26957;
+$body-text-color: #111111;
+$hr-border-color:#eceff8;
+$footer-color:#bdbdbd;
+$black: #333333;
+$white: #ffffff;
+$grey:#f7f7f7;
+$proudct_span_color:#555555;
+$proudct_price_color:#212121;
+
+
+// Heading Color
+$heading-color: #000;
+$heading_b-color: #111;
+
+
+// Soft color
+$black-soft-light:#444444;
+$black-soft-2:#353535;
+$black-soft:#878787;
+$black-soft-2:#d8d8d8;
+
+
+// Responsive Variables
+$laptop: 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$lg : 'only screen and (min-width: 992px) and (max-width: 1200px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$xs:'(max-width: 767px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
+
+// @media #{$md} {
+//     transform: translate3d(-460px, 0, 0);
+
+// }
+// position: absolute;
+// top: 50%;
+// left: 50%;
+// -webkit-transform: translate(-50%, -50%);
+// -ms-transform: translate(-50%, -50%);
+// transform: translate(-50%, -50%);
+// color: #ffffff;
+// width: 135px;
+// height: 40px;
+// background-image: url(../images/logo.png);
+// /* background-size: 66px 40px; */
+// background-position: 50% 50%;
+// background-size: contain;
+// background-repeat: no-repeat;
