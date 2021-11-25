@@ -2724,4 +2724,99 @@ button:focus {
   margin-left: 8px;
 }
 
+.product-image {
+  text-align: center;
+  position: relative;
+}
+
+.product-image .proudct-size {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  height: 40px;
+  -webkit-transition: 0.3s all ease-in-out;
+  -o-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+.product-image .proudct-size h5 {
+  color: #fff;
+  margin: 7px 0 11px 0;
+}
+
+.product-image .proudct-size ul {
+  display: none;
+}
+
+.product-image .proudct-size ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.product-image .proudct-size ul li a {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.product-image:hover .proudct-size {
+  height: 70px;
+}
+
+.product-image:hover .proudct-size ul {
+  display: block;
+}
+
+.product-image {
+  text-align: center;
+  position: relative;
+}
+
+.product-image .proudct-size.proudct-size02 {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  height: 40px;
+  -webkit-transition: 0.5s all ease-in-out;
+  -o-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+
+.product-image .proudct-size.proudct-size02 h5 {
+  color: #fff;
+  margin: 7px 0 11px 0;
+}
+
+.product-image .proudct-size.proudct-size02 ul {
+  display: none;
+}
+
+.product-image .proudct-size.proudct-size02 ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.product-image .proudct-size.proudct-size02 ul li a {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.product-image:hover .proudct-size.proudct-size02 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.product-image:hover .proudct-size {
+  height: 70px;
+}
+
+.product-image:hover .proudct-size ul {
+  display: block;
+}
+
 /*# sourceMappingURL=style.css.map */
