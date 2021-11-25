@@ -72,8 +72,10 @@
                visibility: hidden;
                opacity: 0;
                transition: 0.3s all ease-in-out;
+               z-index: 10;
                @media #{$laptop}{
                 width: 93vw;
+               
 
                  }
                @media #{$lg}{
@@ -323,6 +325,7 @@
     width: 196px;
     text-align: center;
     transition: 0.3s all ease-in-out;
+    z-index: 10;
     ul{
         li{
             display: block;
