@@ -1,7 +1,15 @@
 .footer-wrapper{
-    padding: 100px 0 50px 0;
+    padding: 100px 0 20px 0;
     background: #000;
     color: #fff;
+    @media #{$md} {
+        padding: 50px 0 20px 0;
+    
+    }
+    @media #{$xs} {
+        padding: 50px 0 20px 0;
+    
+    }
    
     input::placeholder {
         color: #fff;
@@ -11,6 +19,14 @@
         p{
             color: #fff;
             margin-bottom: 120px;
+            @media #{$md} {
+                margin-bottom: 30px;
+            
+            }
+            @media #{$xs} {
+                margin-bottom: 30px;
+            
+            }
         }
     
         form{
@@ -34,19 +50,50 @@
 
 .footer__news__latter {
     margin-right: 63px;
+    @media #{$lg} {
+        margin-right: 10px;
+    
+    }
+    @media #{$md} {
+        margin-right: 10px;
+    
+    }
+    @media #{$sm} {
+        margin-right: 10px;
+    
+    }
 }
 .singel-menu-wrapper{
+
+    @media #{$sm} {
+        width: 50%;
+        text-align: center;
+    
+    }
+    @media #{$xs} {
+        width: 100%;
+        text-align: center;
+    
+    }
  h3{
      color: #fff;
  }
 }
 .socials{
     fill: #fff;
-    text-align: right;
+ 
     ul{
         li{
             display: inline-block;
-margin: 0 5px;
+
+@media #{$md} {
+    margin: 0 5px;
+
+}
+@media #{$sm} {
+    margin: 0 10px;
+
+}
             a{
                 svg{
                     width: 20px;
@@ -66,12 +113,14 @@ margin: 0 5px;
     margin: 20px 0px;
     ul{
         li{
-    margin: 0px 20px;
+            margin: 0px 20px;
+    @media #{$md} {
+        margin: 0px 14px;
+    
+    }
 
             display: inline-block;
-            a{
 
-            }
         }
     }
 }
@@ -87,4 +136,6 @@ margin: 0 5px;
 
 
           
-            
+.p-30{
+    padding-bottom: 30px;
+}

@@ -3193,9 +3193,21 @@ button:focus {
 }
 
 .footer-wrapper {
-  padding: 100px 0 50px 0;
+  padding: 100px 0 20px 0;
   background: #000;
   color: #fff;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .footer-wrapper {
+    padding: 50px 0 20px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-wrapper {
+    padding: 50px 0 20px 0;
+  }
 }
 
 .footer-wrapper input::-webkit-input-placeholder {
@@ -3228,6 +3240,18 @@ button:focus {
   margin-bottom: 120px;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .footer-wrapper p {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-wrapper p {
+    margin-bottom: 30px;
+  }
+}
+
 .footer-wrapper form {
   position: relative;
 }
@@ -3251,18 +3275,60 @@ button:focus {
   margin-right: 63px;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .footer__news__latter {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .footer__news__latter {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .footer__news__latter {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .singel-menu-wrapper {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .singel-menu-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 .singel-menu-wrapper h3 {
   color: #fff;
 }
 
 .socials {
   fill: #fff;
-  text-align: right;
 }
 
 .socials ul li {
   display: inline-block;
-  margin: 0 5px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .socials ul li {
+    margin: 0 5px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .socials ul li {
+    margin: 0 10px;
+  }
 }
 
 .socials ul li a svg {
@@ -3284,12 +3350,22 @@ button:focus {
   display: inline-block;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .footer_bottom_wrapper_left ul li {
+    margin: 0px 14px;
+  }
+}
+
 .footer_bottom_wrapper_right {
   margin: 20px 0px;
 }
 
 .footer_bottom_wrapper_right p {
   color: #fff;
+}
+
+.p-30 {
+  padding-bottom: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
