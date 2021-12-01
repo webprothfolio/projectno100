@@ -110,3 +110,9 @@ function transitionSlidePrev() {
     slideNextText.classList.remove("playText");
     slideActiveText.classList.add("playText");
 }
+
+
+var swiper = new Swiper(".mySwiper", {
+    effect: "cards",
+    grabCursor: true,
+});

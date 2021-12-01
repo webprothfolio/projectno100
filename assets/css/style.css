@@ -362,6 +362,7 @@ body {
   font-style: normal;
   color: #111111;
   font-size: 14px;
+  line-height: 1;
 }
 
 .img, img {
